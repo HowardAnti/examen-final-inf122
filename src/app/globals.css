@@ -38,6 +38,29 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  --white:#FFFFFF;
+  --black:#393939;
+  --blue:#26367C;
+  --gray:#676767;
+  --lightblue:#7480B2;
+  --sm:12px;
+  --md:14px;
+  --lg:22px;
+  --xl:32px;
+  
+}
+
+hr{
+  display: block;
+  width: 42.5px;
+  border-radius: 5px;
+  color: var(--blue);
+  border-top: var(--blue) solid 2.5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-left: 29px;
+  padding: 0;
 }
 
 @media (prefers-color-scheme: dark) {
